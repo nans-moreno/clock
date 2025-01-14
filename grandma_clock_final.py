@@ -110,9 +110,6 @@ while True: # Loop for choice.
     set_alarm_choice = input("Do you want to set an alarm? (yes or no): ").strip().lower() # Strip and Lower prevent extra checks in case the user enters uppercase or spaces.
     if set_alarm_choice == "yes":
         alarm_time = set_alarm()
-    else:
-        print("Please enter 'yes' or 'no' only.")
-        break
 
     if user_choice == "1":
         def get_real_time():
